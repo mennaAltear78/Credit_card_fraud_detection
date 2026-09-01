@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset
+ml/creditcard.csv
+
+
+
+# Environment
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+Backend/logs/
+
+
+
