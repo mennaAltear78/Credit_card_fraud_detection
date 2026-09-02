@@ -2,7 +2,7 @@
 
 ## Overview
 
-An end-to-end machine learning engineering project designed to analyze and classify financial bank transactions to detect fraudulent activities with high precision, mitigating financial losses caused by unauthorized transactions.
+An end-to-end full-stack machine learning engineering project designed to analyze and classify financial bank transactions to detect fraudulent activities with high precision, mitigating financial losses caused by unauthorized transactions. The application features a dynamic React frontend integrated with a robust FastAPI backend service.
 
 ## Implementation Steps
 
@@ -31,3 +31,4 @@ An end-to-end machine learning engineering project designed to analyze and class
 * **Robust Scikit-Learn Pipelines:** Built modular pipelines integrating data preprocessing and scaling steps directly with models to prevent data leakage.
 * **Algorithm Benchmarking:** Developed an experimental framework to evaluate robust classification models, including Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, Support Vector Machines (SVM), K-Nearest Neighbors (KNN), and XGBoost Classifiers.
 * **Cross-Validation Strategy:** Implemented **Stratified K-Fold Cross-Validation** to ensure the minority fraudulent class is proportionally represented across all training and testing folds.
+* **Full-Stack Integration (React & FastAPI):** Developed a responsive React dashboard frontend for real-time risk classification and batch CSV file analysis, connected to a high-performance FastAPI backend serving the trained machine learning model endpoints with user authentication and transaction logging.
